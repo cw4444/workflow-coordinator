@@ -2,6 +2,8 @@
 
 This is a small local web app for coordinating Document Centre work: new requests, deadlines, risk flags, client updates, reports, and shift handovers.
 
+Built by [Codex from OpenAI](https://chatgpt.com/codex/cloud).
+
 It is not an `.exe` yet. For now, you run it with Python and open it in your browser. You do not need to edit the code to try it.
 
 ## What You Get
@@ -226,4 +228,3 @@ For architecture, agents, tools, and extension details:
 - [Architecture README](document-centre-agentic/README.md)
 - [Agent definitions](document-centre-agentic/agents.md)
 - [Tool and skill definitions](document-centre-agentic/skills.md)
-
