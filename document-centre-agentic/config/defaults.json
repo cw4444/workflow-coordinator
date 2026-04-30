@@ -1,0 +1,25 @@
+{
+  "organisation": "Document Centre",
+  "brand": {
+    "required_footer": "Confidential",
+    "approved_templates": ["legal_letter", "court_bundle", "board_pack", "transaction_bible", "presentation"],
+    "file_name_pattern_hint": "CLIENT_MATTER_DESCRIPTION_vNN.ext",
+    "required_metadata": ["client", "matter", "owner", "classification"]
+  },
+  "sla_hours": {
+    "standard": 24,
+    "urgent": 4,
+    "critical": 1,
+    "complaint": 2
+  },
+  "staffing": {
+    "agent_capacity_hours_per_shift": 7,
+    "default_agent_instances": 4,
+    "human_escalation_threshold": 0.85
+  },
+  "risk_thresholds": {
+    "critical_hours_remaining": 1,
+    "high_hours_remaining": 4,
+    "medium_hours_remaining": 12
+  }
+}
